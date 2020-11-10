@@ -74,9 +74,12 @@ h1, h2, h3, h4, h5, h6 {
 color
 
 */
-
-body {
+#versionkid {
   background-color: #4CAF50;
+  color: #FFF;
+}
+#versionadult {
+  background-color: #303030;
   color: #FFF;
 }
 
@@ -248,4 +251,19 @@ body {
     margin: 0;
   }
   
+}
+
+.form-theme {
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#versionkid {
+  display: block;
+}
+
+#versionadult {
+  display: none;
 }
